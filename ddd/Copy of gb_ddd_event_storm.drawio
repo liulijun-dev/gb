@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T05:16:53.819Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="BVDXY8kcbVMt2zfCfSQo" version="15.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-11-02T05:26:45.867Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="kqyRPeJjDfxJJisB_yMF" version="15.3.1" type="github" pages="7">
   <diagram id="A75NQqUKRStFPcEQHEmP" name="事件风暴">
     <mxGraphModel dx="575" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -693,7 +693,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ESNaVwMtl6nMYWcQwH5k" name="Page-6">
-    <mxGraphModel dx="2337" dy="1460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="334" dy="209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="aioohzkTZ-wiFG1K7gQq-0" />
         <mxCell id="aioohzkTZ-wiFG1K7gQq-1" parent="aioohzkTZ-wiFG1K7gQq-0" />
@@ -1235,7 +1235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VOOCkHht2LK9efJBvEuH" name="限界上下文依赖关系（战略设计）">
-    <mxGraphModel dx="1107" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="825" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1435,7 +1435,7 @@
         <mxCell id="jLLUTy1TZaEDj2WLap6B-1" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;限界上下文：&lt;/font&gt;&lt;/h1&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;限&lt;font style=&quot;font-size: 17px&quot;&gt;界上下文包括限界和上下文两个词，限界代表领域的边界，上下文代表通用语言的语境，综合表示应用程序的一个概念性边界。在这个边界之内的每种领域术语、词组或句子--即通用语言，都有确定的上下文含义。在边界之外，这些述语可能表示不同的意思&lt;/font&gt;&lt;font style=&quot;font-size: 18px&quot;&gt;。&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 18px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;" parent="1" vertex="1">
           <mxGeometry x="850" y="60" width="730" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="tUbul5g768_3rzt02OiC-2" value="&lt;h1&gt;问题：&lt;/h1&gt;&lt;p&gt;1. 在和用户、产品经理沟通是都是使用这种英文名词吗？还是使用的中文名词？&lt;/p&gt;&lt;p&gt;2. Protocol是否可一作为一个独立的上下文，从而降低Register上下文的业务职责&lt;/p&gt;&lt;p&gt;3. Execution上下文过大，如何进一步拆分？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;fontColor=#FF0000;" parent="1" vertex="1">
+        <mxCell id="tUbul5g768_3rzt02OiC-2" value="&lt;h1&gt;问题：&lt;/h1&gt;&lt;p&gt;1. 在和用户、产品经理沟通是都是使用的是英文名词吗？还是使用的中文名词？&lt;/p&gt;&lt;p&gt;2. Protocol是否可一作为一个独立的上下文，从而降低Register上下文的业务职责&lt;/p&gt;&lt;p&gt;3. Execution上下文过大，如何进一步拆分？&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=17;fontColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="850" y="345" width="390" height="225" as="geometry" />
         </mxCell>
       </root>
