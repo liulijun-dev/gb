@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-02T00:20:48.884Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="ukrBbK0CIAWqtyVc7OmK" version="15.3.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-11-02T00:28:24.130Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Hiw3QpVhvAv5mKzIhtTY" version="15.3.1" type="github" pages="6">
   <diagram id="A75NQqUKRStFPcEQHEmP" name="事件风暴">
     <mxGraphModel dx="1055" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -527,7 +527,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="事件风暴整理" id="S5cxFfaY4JaOIWmp_-Hu">
-    <mxGraphModel dx="114" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1862" dy="1251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="AwX2zrNcYvDbI06jWXSN-0" />
         <mxCell id="AwX2zrNcYvDbI06jWXSN-1" parent="AwX2zrNcYvDbI06jWXSN-0" />
@@ -563,12 +563,6 @@
         </mxCell>
         <mxCell id="AwX2zrNcYvDbI06jWXSN-12" value="用户删除&lt;br&gt;仪表&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%94%A8%E6%88%B7%E5%8F%96%E6%B6%88%26lt%3Bbr%26gt%3B%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%AA%E8%A1%A8%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3BfontSize%3D17%3BfontColor%3D%23ffffff%3BfillColor%3D%231ba1e2%3BstrokeColor%3D%23006EAF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221060%22%20y%3D%22200%22%20width%3D%2280%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
           <mxGeometry x="1161" y="200" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-13" value="用户删除&lt;br&gt;Pin&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%94%A8%E6%88%B7%E5%8F%96%E6%B6%88%26lt%3Bbr%26gt%3B%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%AA%E8%A1%A8%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3BfontSize%3D17%3BfontColor%3D%23ffffff%3BfillColor%3D%231ba1e2%3BstrokeColor%3D%23006EAF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221060%22%20y%3D%22200%22%20width%3D%2280%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1260" y="200" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-14" value="用户删除&lt;br&gt;Pin Group&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%94%A8%E6%88%B7%E5%8F%96%E6%B6%88%26lt%3Bbr%26gt%3B%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%AA%E8%A1%A8%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3BfontSize%3D17%3BfontColor%3D%23ffffff%3BfillColor%3D%231ba1e2%3BstrokeColor%3D%23006EAF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221060%22%20y%3D%22200%22%20width%3D%2280%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1360" y="200" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AwX2zrNcYvDbI06jWXSN-15" value="用户编辑Sweep Node&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%94%A8%E6%88%B7%E5%8F%96%E6%B6%88%26lt%3Bbr%26gt%3B%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%AA%E8%A1%A8%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3BfontSize%3D17%3BfontColor%3D%23ffffff%3BfillColor%3D%231ba1e2%3BstrokeColor%3D%23006EAF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221060%22%20y%3D%22200%22%20width%3D%2280%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
           <mxGeometry x="1470" y="200" width="80" height="80" as="geometry" />
@@ -734,42 +728,6 @@
         </mxCell>
         <mxCell id="AwX2zrNcYvDbI06jWXSN-69" value="Pin Group成员已删除" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
           <mxGeometry x="1060" y="920" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-70" value="Pin Group已删除" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1160" y="920" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-71" value="Pin Group已添加" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1260" y="920" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-72" value="用户添加Pin" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1140" y="420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-73" value="用户重命名Pin" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1240.5" y="420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-74" value="Pin" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1760" y="1330" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-75" value="用户添加Pin Group" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1330" y="420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-76" value="用户重命名Pin Group" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1420" y="420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-77" value="Pin Group" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1860" y="1330" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-78" value="Pin Group已重命名" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1360" y="920" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-79" value="Pin已删除" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1460" y="920" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-80" value="Pin 已重命名" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1560" y="920" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="AwX2zrNcYvDbI06jWXSN-81" value="Pin 已添加" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
-          <mxGeometry x="1650" y="920" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AwX2zrNcYvDbI06jWXSN-82" value="Test Instance已创建" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
           <mxGeometry x="1754" y="920" width="80" height="80" as="geometry" />
@@ -1046,6 +1004,89 @@
         </mxCell>
         <mxCell id="AwX2zrNcYvDbI06jWXSN-173" value="用户选择寄存器Module，设置Interface Protocol的值(??)" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="AwX2zrNcYvDbI06jWXSN-1">
           <mxGeometry x="1760" y="680" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ESNaVwMtl6nMYWcQwH5k" name="Page-6">
+    <mxGraphModel dx="428" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="aioohzkTZ-wiFG1K7gQq-0" />
+        <mxCell id="aioohzkTZ-wiFG1K7gQq-1" parent="aioohzkTZ-wiFG1K7gQq-0" />
+        <mxCell id="aioohzkTZ-wiFG1K7gQq-2" value="用户删除&lt;br&gt;Pin&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%94%A8%E6%88%B7%E5%8F%96%E6%B6%88%26lt%3Bbr%26gt%3B%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%AA%E8%A1%A8%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3BfontSize%3D17%3BfontColor%3D%23ffffff%3BfillColor%3D%231ba1e2%3BstrokeColor%3D%23006EAF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221060%22%20y%3D%22200%22%20width%3D%2280%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1050" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aioohzkTZ-wiFG1K7gQq-3" value="用户添加Pin" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="960" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AO1J_jnF1EaMoKEKSw8w-0" value="聚合根" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="827" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AO1J_jnF1EaMoKEKSw8w-1" value="实体" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="917" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AO1J_jnF1EaMoKEKSw8w-2" value="值对象" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1007" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AO1J_jnF1EaMoKEKSw8w-3" value="决策&lt;br&gt;命令" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1097" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AO1J_jnF1EaMoKEKSw8w-4" value="领域&lt;br&gt;事件" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1187" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AO1J_jnF1EaMoKEKSw8w-5" value="备注" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1277" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AO1J_jnF1EaMoKEKSw8w-6" value="领域&lt;br&gt;名词" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1377" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iUuO6ZeV0bcVgpqedfU9-0" value="用户重命名Pin" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1140" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbKkrwZFNQ1qkoZW0PE-0" value="Pin" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="960" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbKkrwZFNQ1qkoZW0PE-1" value="Pin" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1050" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IdbKkrwZFNQ1qkoZW0PE-2" value="Pin" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1140" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xxyv1xYwPkL2MZECFVGU-0" value="Pin&lt;br&gt;已删除" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1050" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xxyv1xYwPkL2MZECFVGU-1" value="Pin &lt;br&gt;已重命名" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1140" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xxyv1xYwPkL2MZECFVGU-2" value="Pin &lt;br&gt;已添加" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="960" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R6ZfULG5jJk7x6qObhSY-0" value="用户添加Pin Group" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1280" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="R6ZfULG5jJk7x6qObhSY-1" value="用户重命名Pin Group" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1460" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qrjC2M9njx-bP_-WwFOJ-0" value="Pin Group已删除" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1370" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qrjC2M9njx-bP_-WwFOJ-1" value="Pin Group已添加" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1280" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qrjC2M9njx-bP_-WwFOJ-2" value="Pin Group已重命名" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#000000;fillColor=#fa6800;strokeColor=#C73500;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1460" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="cFQEN8EvbxTADwJJgZ6I-0" value="用户删除&lt;br&gt;Pin Group&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E7%94%A8%E6%88%B7%E5%8F%96%E6%B6%88%26lt%3Bbr%26gt%3B%E5%88%9D%E5%A7%8B%E5%8C%96%E4%BB%AA%E8%A1%A8%22%20style%3D%22whiteSpace%3Dwrap%3Bhtml%3D1%3Baspect%3Dfixed%3BfontSize%3D17%3BfontColor%3D%23ffffff%3BfillColor%3D%231ba1e2%3BstrokeColor%3D%23006EAF%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221060%22%20y%3D%22200%22%20width%3D%2280%22%20height%3D%2280%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1370" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vWV1BquDB9qv2vDZ2LP-0" value="Pin Group" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1280" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vWV1BquDB9qv2vDZ2LP-1" value="Pin Group" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1370" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4vWV1BquDB9qv2vDZ2LP-2" value="Pin Group" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=17;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="aioohzkTZ-wiFG1K7gQq-1">
+          <mxGeometry x="1460" y="260" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
