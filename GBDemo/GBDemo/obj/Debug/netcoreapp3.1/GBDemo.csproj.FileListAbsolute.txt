@@ -1,0 +1,16 @@
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/GBDemo.deps.json
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/GBDemo.runtimeconfig.json
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/GBDemo.runtimeconfig.dev.json
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/GBDemo.dll
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/GBDemo.pdb
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.csproj.AssemblyReference.cache
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.AssemblyInfoInputs.cache
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.AssemblyInfo.cs
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.csproj.CoreCompileInputs.cache
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.dll
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.pdb
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.genruntimeconfig.cache
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/Cake.Gradle.dll
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/JetBrains.Annotations.dll
+/Users/liulijun/Projects/gb/GBDemo/GBDemo/obj/Debug/netcoreapp3.1/GBDemo.csproj.CopyComplete

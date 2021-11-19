@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{8271FF1F-51B0-4086-82AA-DF960A7B3021}|Default">
+  <MonoDevelop.Ide.ItemProperties.GBDemo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PinManagement/DomainLayer/Pin/Pin.cs">
+    <Files>
+      <File FileName="PinManagement/Helper/Domain/Entity.cs" Line="10" Column="19" />
+      <File FileName="PinManagement/Helper/Domain/ValueObject.cs" />
+      <File FileName="PinManagement/Helper/Domain/DomainEvent.cs" />
+      <File FileName="PinManagement/DomainLayer/Pin/Pin.cs" Line="20" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GBDemo" expanded="True">
+            <Node name="PinManagement" expanded="True">
+              <Node name="InfrastructureLayer" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PinManagement FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

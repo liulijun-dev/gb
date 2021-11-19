@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GBDemo/1.0.0": {
+        "dependencies": {
+          "Cake.Gradle": "1.1.0"
+        },
+        "runtime": {
+          "GBDemo.dll": {}
+        }
+      },
+      "Cake.Gradle/1.1.0": {
+        "dependencies": {
+          "JetBrains.Annotations": "2021.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Cake.Gradle.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "JetBrains.Annotations/2021.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "2021.1.0.0",
+            "fileVersion": "2021.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GBDemo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cake.Gradle/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2i9NEDDMio5ljQxZusnppbLg/JTpXaf+Fj2cJCmjW/3oUz9roVe+ylEmLE8d2yJ8wZGeYdgRosYxvRn+NdtKmg==",
+      "path": "cake.gradle/1.1.0",
+      "hashPath": "cake.gradle.1.1.0.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2021.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n9JSw5Z+F+6gp9vSv4aLH6p/bx3GAYA6FZVq1wJq/TJySv/kPgFKLGFeS7A8Xa5X4/GWorh5gd43yjamUgnBNA==",
+      "path": "jetbrains.annotations/2021.1.0",
+      "hashPath": "jetbrains.annotations.2021.1.0.nupkg.sha512"
+    }
+  }
+}

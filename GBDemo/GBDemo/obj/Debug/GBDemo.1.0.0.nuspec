@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GBDemo</id>
+    <version>1.0.0</version>
+    <authors>GBDemo</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Cake.Gradle" version="1.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/GBDemo.runtimeconfig.json" target="lib/netcoreapp3.1/GBDemo.runtimeconfig.json" />
+    <file src="/Users/liulijun/Projects/gb/GBDemo/GBDemo/bin/Debug/netcoreapp3.1/GBDemo.dll" target="lib/netcoreapp3.1/GBDemo.dll" />
+  </files>
+</package>

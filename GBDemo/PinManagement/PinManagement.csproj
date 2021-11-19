@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ApplicationLayer\" />
+    <None Remove="DomainLayer\" />
+    <None Remove="InfrastructureLayer\" />
+    <None Remove="Helper\" />
+    <None Remove="APILayer\" />
+    <None Remove="DomainLayer\Pin\" />
+    <None Remove="DomainLayer\PinGroup\" />
+    <None Remove="DomainLayer\base\" />
+    <None Remove="Helper\Domain\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ApplicationLayer\" />
+    <Folder Include="DomainLayer\" />
+    <Folder Include="InfrastructureLayer\" />
+    <Folder Include="Helper\" />
+    <Folder Include="APILayer\" />
+    <Folder Include="DomainLayer\Pin\" />
+    <Folder Include="DomainLayer\PinGroup\" />
+    <Folder Include="DomainLayer\base\" />
+    <Folder Include="Helper\Domain\" />
+  </ItemGroup>
+</Project>

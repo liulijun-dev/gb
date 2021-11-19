@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GBDemo", "GBDemo\GBDemo.csproj", "{8271FF1F-51B0-4086-82AA-DF960A7B3021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinManagement", "PinManagement\PinManagement.csproj", "{4CB75C82-E0EA-4E40-995B-3F3773BF618C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8271FF1F-51B0-4086-82AA-DF960A7B3021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8271FF1F-51B0-4086-82AA-DF960A7B3021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8271FF1F-51B0-4086-82AA-DF960A7B3021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8271FF1F-51B0-4086-82AA-DF960A7B3021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB75C82-E0EA-4E40-995B-3F3773BF618C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB75C82-E0EA-4E40-995B-3F3773BF618C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB75C82-E0EA-4E40-995B-3F3773BF618C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB75C82-E0EA-4E40-995B-3F3773BF618C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA669611-BC55-4F6C-8856-EA15FC807827}
+	EndGlobalSection
+EndGlobal

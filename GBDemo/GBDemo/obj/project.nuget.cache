@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2Yrqrqq3urN/dC40bjdb+xg3cA28wYUK4tIJUYUcLkA3Z+2j99d/jmYVQ6ESIhhmL/9FA9Aa2v5UdHQkDhRQSQ==",
+  "success": true,
+  "projectFilePath": "/Users/liulijun/Projects/gb/GBDemo/GBDemo/GBDemo.csproj",
+  "expectedPackageFiles": [
+    "/Users/liulijun/.nuget/packages/cake.gradle/1.1.0/cake.gradle.1.1.0.nupkg.sha512",
+    "/Users/liulijun/.nuget/packages/jetbrains.annotations/2021.1.0/jetbrains.annotations.2021.1.0.nupkg.sha512",
+    "/Users/liulijun/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}
