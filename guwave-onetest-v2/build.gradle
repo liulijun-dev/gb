@@ -28,10 +28,8 @@ allprojects {
     }
 
     dependencies {
-        implementation project(":common")
         implementation "org.apache.commons:commons-lang3:3.11"
         implementation 'com.google.guava:guava:29.0-jre'
-        //implementation 'com.google.guava:guava:10.0.1'
         implementation 'org.springframework.boot:spring-boot-starter-web'
 
         compileOnly 'org.projectlombok:lombok:1.18.22'
@@ -39,14 +37,16 @@ allprojects {
         runtimeOnly 'com.h2database:h2:1.4.200'
 
         testImplementation 'org.mockito:mockito-core:3.11.2'
-        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+        testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
         testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
     }
 }
 
 dependencies {
-    //project(":common")
+    implementation project(":common")
+    implementation project(":site")
+    implementation project(":instrument")
     //implementation 'org.springframework.boot:spring-boot-starter-web'
     //implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.0'
     //testImplementation 'org.springframework.boot:spring-boot-starter-test'

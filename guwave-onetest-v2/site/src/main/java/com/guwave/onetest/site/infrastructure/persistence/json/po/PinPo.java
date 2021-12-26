@@ -1,13 +1,10 @@
 package com.guwave.onetest.site.infrastructure.persistence.json.po;
 
 import com.guwave.onetest.site.domain.pin.model.Pin;
-import com.guwave.onetest.site.domain.pin.model.SiteId;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.List;
 
 @Setter
 @Getter

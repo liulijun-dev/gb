@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.guwave.onetest.site.application.SiteAppTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-12-26T11:38:40" hostname="liulijundeMacBook-Pro.local" time="0.113">
+  <properties/>
+  <testcase name="should_success_when_delete_site_given_site_does_not_exist()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.03"/>
+  <testcase name="should_throw_exception_when_add_connection_given_pin_does_not_exists()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.004"/>
+  <testcase name="should_success_when_create_site_given_no_site()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.002"/>
+  <testcase name="should_success_when_delete_site_given_site_exists_and_the_site_number_is_the_largest()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.004"/>
+  <testcase name="should_success_when_delete_connection_given_site_does_not_exists()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.001"/>
+  <testcase name="should_success_when_add_connection_given_site_and_pin_exists()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.062"/>
+  <testcase name="should_success_when_delete_connection_given_site_exists()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.001"/>
+  <testcase name="should_throw_exception_when_add_connection_given_site_does_not_exists()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.001"/>
+  <testcase name="should_success_when_create_site_given_two_sites_exist()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.002"/>
+  <testcase name="should_success_when_delete_site_given_site_exists_and_the_site_number_is_not_the_largest()" classname="com.guwave.onetest.site.application.SiteAppTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

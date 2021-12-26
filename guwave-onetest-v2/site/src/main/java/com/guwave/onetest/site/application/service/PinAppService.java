@@ -22,8 +22,8 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class PinAppService {
     private final PinRepository pinRepository;
-    private final SiteRepository siteRepository;
     private final PinGroupRepository pinGroupRepository;
+    private final SiteRepository siteRepository;
 
     public String createPin(String name) {
         Pin pin = Pin.create(name);
@@ -54,12 +54,12 @@ public class PinAppService {
         // delete pin from site
         List<Site> deletedPinSites = siteRepository.findAllByPinId(pin.id())
             .stream()
-            .peek(it -> it.removeConnection(id))
+            .peek(it -> it.removeConnectionByPinId(id))
             .collect(Collectors.toList());
         siteRepository.saveBatch(deletedPinSites);
     }
 
-    public void updatePinName(String id, String newName) {
+    public void renamePin(String id, String newName) {
         Pin pin = findPinOrThrowException(id);
 
         Optional<Pin> pinHasSameNewName = pinRepository.findByName(newName);
@@ -69,7 +69,7 @@ public class PinAppService {
                 pinHasSameNewName.get().id() + " has the same new name");
         }
 
-        pin.renamePin(newName);
+        pin.rename(newName);
         pinRepository.save(pin);
     }
 

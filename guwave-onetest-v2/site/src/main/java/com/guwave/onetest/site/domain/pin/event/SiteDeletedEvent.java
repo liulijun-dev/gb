@@ -1,6 +1,6 @@
 package com.guwave.onetest.site.domain.pin.event;
 
-import com.guwave.onetest.site.helper.domain.DomainEvent;
+import com.guwave.onetest.common.domain.DomainEvent;
 
 public class SiteDeletedEvent extends DomainEvent {
     private String siteId;

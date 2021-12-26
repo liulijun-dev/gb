@@ -20,7 +20,7 @@ public class Pin extends Entity<String> {
         this.name = name;
     }
 
-    public void renamePin(String newName) {
+    public void rename(String newName) {
         this.name = newName;
     }
 }

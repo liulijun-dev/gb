@@ -6,11 +6,13 @@ import com.guwave.onetest.site.constant.ErrorCode;
 import com.guwave.onetest.site.exception.ConnectionAlreadyExistException;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
 public class Site extends Entity<String> {
     private boolean isActive = false;
+    // number start by 0
     private Long number;
     private final List<Connection> connections = new ArrayList<>();
 
@@ -36,12 +38,16 @@ public class Site extends Entity<String> {
         this.connections.add(connection);
     }
 
-    public void removeConnection(Connection connection) {
+    public void removeConnectionByPinId(Connection connection) {
         this.connections.removeIf(it -> it.id().equals(connection.id()));
     }
 
-    public void removeConnection(String pinId) {
+    public void removeConnectionByPinId(String pinId) {
         this.connections.removeIf(it -> it.getPinId().equals(pinId));
+    }
+
+    public void removeConnection(String connectionId) {
+        this.connections.removeIf(it -> it.id().equals(connectionId));
     }
 
     public boolean hasConnection(String connectionId) {
@@ -58,5 +64,9 @@ public class Site extends Entity<String> {
 
     public void resetNumber(long number) {
         this.number = number;
+    }
+
+    public List<Connection> connections() {
+        return Collections.unmodifiableList(this.connections);
     }
 }
