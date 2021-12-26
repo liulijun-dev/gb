@@ -1,5 +1,6 @@
 package com.guwave.onetest.site.application.service;
 
+import com.guwave.onetest.site.domain.pin.event.SiteDeletedEvent;
 import com.guwave.onetest.site.domain.pin.model.Pin;
 import com.guwave.onetest.site.domain.pin.event.PinDeletedEvent;
 import com.guwave.onetest.site.domain.pin.repository.PinRepository;
@@ -58,11 +59,11 @@ public class PinAppService {
         pinGroupRepository.saveBatch(deletedPinPinGroup);
 
         // delete pin from site
-        List<Site> deletedPinSites = siteRepository.findAll(pin.getSiteIds())
+        List<Site> deletedPinSites = siteRepository.findBatch(pin.getSiteIds())
             .stream()
             .peek(it -> it.deletePin(id))
             .collect(Collectors.toList());
-        siteRepository.saveAll(deletedPinSites);
+        siteRepository.saveBatch(deletedPinSites);
     }
 
     // 通过事件总线发送Pin删除的消息
@@ -99,8 +100,11 @@ public class PinAppService {
         Pin pin = pinRepository.findOne(id)
             .orElseThrow(() -> new PinCannotFoundException("can not find pin " + id));
         // 可以通过返回boolean值减少对repository的操作
+        boolean siteDeleted = pin.deleteRelationship(siteId);
         if (pin.deleteRelationship(siteId)) {
+            PinDeletedEvent event = new PinDeletedEvent(id);
             pinRepository.save(pin);
+            eventBus.post(event);
         }
     }
 }

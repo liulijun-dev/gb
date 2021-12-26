@@ -31,12 +31,12 @@ public class SiteRepositoryXml implements SiteRepository {
     }
 
     @Override
-    public List<Site> findAll(List<SiteId> siteIds) {
+    public List<Site> findBatch(List<SiteId> siteIds) {
         throw new NotImplementedException("not implemented");
     }
 
     @Override
-    public void saveAll(List<Site> sites) {
+    public void saveBatch(List<Site> sites) {
         throw new NotImplementedException("not implemented");
     }
 }

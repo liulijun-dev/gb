@@ -1,5 +1,6 @@
 package com.guwave.onetest.site.domain.pin.model;
 
+import com.guwave.onetest.site.domain.pin.event.SiteDeletedEvent;
 import com.guwave.onetest.site.helper.domain.Entity;
 import lombok.Getter;
 import lombok.extern.log4j.Log4j2;

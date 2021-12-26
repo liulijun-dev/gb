@@ -23,6 +23,6 @@ public class SiteAppService {
             .peek(it -> it.deletePin(event.pinId()))
             .collect(Collectors.toList());
 
-        siteRepository.saveAll(deletedPinSites);
+        siteRepository.saveBatch(deletedPinSites);
     }
 }

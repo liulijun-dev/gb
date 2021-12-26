@@ -10,6 +10,7 @@ import java.util.Optional;
 
 public class TestFlowFragmentViewModel {
     private final GrpcTestFlowRepository grpcTestFlowRepository;
+    List<EvaluateSetting> evaluateSettingObservable;
 
     public TestFlowFragmentViewModel(GrpcTestFlowRepository grpcTestFlowRepository) {
         this.grpcTestFlowRepository = grpcTestFlowRepository;
@@ -20,6 +21,6 @@ public class TestFlowFragmentViewModel {
     }
 
     public List<EvaluateSetting> getEvaluationSettingsByXXX(String xxx) {
-        return grpcTestFlowRepository.getEvaluationSettingsByXXX(xxx);
+        evaluateSettingObservable = grpcTestFlowRepository.getEvaluationSettingsByXXX(xxx);
     }
 }

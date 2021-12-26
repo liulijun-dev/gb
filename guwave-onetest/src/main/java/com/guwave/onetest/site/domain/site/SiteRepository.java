@@ -13,7 +13,7 @@ public interface SiteRepository {
 
     List<Site> findAll();
 
-    List<Site> findAll(List<SiteId> siteIds);
+    List<Site> findBatch(List<SiteId> siteIds);
 
-    void saveAll(List<Site> sites);
+    void saveBatch(List<Site> sites);
 }

@@ -1,0 +1,5 @@
+rootProject.name = 'guwave-onetest-v2'
+include 'instrument'
+include 'site'
+include 'common'
+
