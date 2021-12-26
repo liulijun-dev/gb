@@ -13,23 +13,23 @@ public class BaseResponse<T> {
     private final String message;
     private final T result;
 
-    public BaseResponse<Void> success() {
+    public static BaseResponse<Void> success() {
         return new BaseResponse<>(DEFAULT_SUCCESS_CODE, DEFAULT_SUCCESS_MESSAGE, null);
     }
 
-    public BaseResponse<T> success(T result) {
+    public static <T> BaseResponse<T> success(T result) {
         return new BaseResponse<>(DEFAULT_SUCCESS_CODE, DEFAULT_SUCCESS_MESSAGE, result);
     }
 
-    public BaseResponse<Void> failure(String code) {
+    public static BaseResponse<Void> failure(String code) {
         return new BaseResponse<Void>(code ,null, null);
     }
 
-    public BaseResponse<Void> failure(String code, String message) {
+    public static BaseResponse<Void> failure(String code, String message) {
         return new BaseResponse<Void>(code ,message, null);
     }
 
-    public BaseResponse<T> failure(String code,String message, T result) {
+    public static <T> BaseResponse<T> failure(String code,String message, T result) {
         return new BaseResponse<>(code ,message, result);
     }
 }

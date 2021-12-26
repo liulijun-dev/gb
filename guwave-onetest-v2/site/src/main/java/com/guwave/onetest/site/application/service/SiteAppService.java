@@ -1,5 +1,8 @@
 package com.guwave.onetest.site.application.service;
 
+import com.guwave.onetest.site.application.dto.AddConnectionDto;
+import com.guwave.onetest.site.application.dto.SiteDetailInfoDto;
+import com.guwave.onetest.site.application.dto.SiteSimpleInfoDto;
 import com.guwave.onetest.site.constant.ErrorCode;
 import com.guwave.onetest.site.domain.pin.repository.PinRepository;
 import com.guwave.onetest.site.domain.site.model.Connection;
@@ -13,6 +16,7 @@ import org.springframework.util.CollectionUtils;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
@@ -48,12 +52,12 @@ public class SiteAppService {
         siteRepository.saveBatch(sites);
     }
 
-    public String addConnection(String siteId, String pinId, String instrumentId, int channel) {
-        Site site = findSiteOrThrowException(siteId);
+    public String addConnection(AddConnectionDto dto) {
+        Site site = findSiteOrThrowException(dto.getSiteId());
 
-        checkPin(pinId);
+        checkPin(dto.getPinId());
 
-        Connection connection = new Connection(pinId, instrumentId, channel);
+        Connection connection = new Connection(dto.getPinId(), dto.getInstrumentId(), dto.getChannel());
         site.addConnection(connection);
 
         siteRepository.save(site);
@@ -70,6 +74,18 @@ public class SiteAppService {
         site.get().removeConnection(connectionId);
 
         siteRepository.save(site.get());
+    }
+
+    public SiteDetailInfoDto getSiteDetail(String siteId) {
+        Site site = findSiteOrThrowException(siteId);
+
+        return SiteDetailInfoDto.from(site);
+    }
+
+    public List<SiteSimpleInfoDto> getAllSites() {
+        List<Site> sites = siteRepository.findAll();
+
+        return sites.stream().map(SiteSimpleInfoDto::from).collect(Collectors.toList());
     }
 
     private Site findSiteOrThrowException(String id) {

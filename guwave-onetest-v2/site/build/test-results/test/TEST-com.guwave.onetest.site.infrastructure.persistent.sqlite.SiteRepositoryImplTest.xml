@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.guwave.onetest.site.infrastructure.persistent.sqlite.SiteRepositoryImplTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-12-26T11:38:40" hostname="liulijundeMacBook-Pro.local" time="0.025">
-  <properties/>
-  <testcase name="should_success_when_save_site_given_site()" classname="com.guwave.onetest.site.infrastructure.persistent.sqlite.SiteRepositoryImplTest" time="0.014"/>
-  <testcase name="should_success_when_delete_site_given_site_exist()" classname="com.guwave.onetest.site.infrastructure.persistent.sqlite.SiteRepositoryImplTest" time="0.01"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

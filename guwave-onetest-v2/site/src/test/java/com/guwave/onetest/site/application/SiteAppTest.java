@@ -1,6 +1,7 @@
 package com.guwave.onetest.site.application;
 
 import com.guwave.onetest.common.util.UUIDUtil;
+import com.guwave.onetest.site.application.dto.AddConnectionDto;
 import com.guwave.onetest.site.application.service.SiteAppService;
 import com.guwave.onetest.site.domain.pin.model.Pin;
 import com.guwave.onetest.site.domain.pin.repository.PinRepository;
@@ -104,7 +105,7 @@ public class SiteAppTest {
         when(siteRepository.findOne(anyString())).thenReturn(Optional.of(site));
         when(pinRepository.findOne(anyString())).thenReturn(Optional.of(pin));
 
-        siteAppService.addConnection(site.id(), pin.id(), "instrument", 0);
+        siteAppService.addConnection(new AddConnectionDto(site.id(), pin.id(), "instrument", 0));
 
         verify(siteRepository, times(1)).save(argThat(it ->
             it.connections().size() == 1 && it.connections().get(0).getPinId().equals(pin.id())));
@@ -114,7 +115,7 @@ public class SiteAppTest {
     public void should_throw_exception_when_add_connection_given_site_does_not_exists() {
         when(siteRepository.findOne(anyString())).thenReturn(Optional.empty());
 
-        assertThrows(SiteCannotFoundException.class, () -> siteAppService.addConnection(UUIDUtil.uuid(), UUIDUtil.uuid(), "instrument", 0));
+        assertThrows(SiteCannotFoundException.class, () -> siteAppService.addConnection(new AddConnectionDto(UUIDUtil.uuid(), UUIDUtil.uuid(), "instrument", 0)));
     }
 
     @Test
@@ -123,7 +124,7 @@ public class SiteAppTest {
         when(siteRepository.findOne(anyString())).thenReturn(Optional.of(site));
         when(pinRepository.findOne(anyString())).thenReturn(Optional.empty());
 
-        assertThrows(PinCannotFoundException.class, () -> siteAppService.addConnection(site.id(), UUIDUtil.uuid(), "instrument", 0));
+        assertThrows(PinCannotFoundException.class, () -> siteAppService.addConnection(new AddConnectionDto(site.id(), UUIDUtil.uuid(), "instrument", 0)));
     }
 
     @Test

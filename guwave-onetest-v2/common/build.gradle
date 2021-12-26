@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group 'guwave'
-version '0.0.1-SNAPSHOT'
+group 'com.guwave.onetest.common'
+version '1.0.0-SNAPSHOT'
 
 sourceSets {
     main {
